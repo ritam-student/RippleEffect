@@ -1,31 +1,3 @@
-/*
-
-const btn = document.querySelector(".btn");
-
-btn.addEventListener("mouseover" , (e) => {
-    const x = e.pageX - btn.offsetLeft;
-    const y = e.pageY - btn.offsetTop;
-    // const y = e.pageY - btn.offsetTop;
-    // console.log(e);
-    // console.log(e.pageX);
-    // console.log("offset x : " + e.offsetX);
-    // console.log("page x : " + e.pageX);
-    // console.log(e.type);
-    console.log("offset is : " + e.offsetX);
-    console.log("pageX is : " + e.pageX);
-    console.log(x,y);
-
-    btn.style.setProperty("--posX" , x + "px");
-    btn.style.setProperty("--posY" , y + "px");
-});
-
-
-*/
-
-
-
-
-
 
 
 const btnEl = document.querySelector(".btn")
