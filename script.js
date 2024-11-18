@@ -3,10 +3,10 @@
 const btnEl = document.querySelector(".btn")
 
 btnEl.addEventListener("mouseover", (e)=>{
-    console.log("page x, y : " + e.pageX, e.pageY);
+    // console.log("page x, y : " + e.pageX, e.pageY);
     // pageX, pageY return the coordinates where the event occur
 
-    console.log("offset is : " + btnEl.offsetLeft, btnEl.offsetTop);
+    // console.log("offset is : " + btnEl.offsetLeft, btnEl.offsetTop);
     // offset return the distance btw nearest offset element(here body) and this btn
 
     const x = e.pageX - btnEl.offsetLeft;
